@@ -1,0 +1,8 @@
+HTTP methods are the set of request types used by a client (like a browser or app) to tell a server what action to perform on a resource.
+Summary Table
+Method	    Action	            Meaning 
+GET	           Read	                Fetch data
+POST	       Create	           Add new data
+PUT	           Update	           Replace entire record
+PATCH	                               Update Modify specific fields
+DELETE	                               Delete	Remove data

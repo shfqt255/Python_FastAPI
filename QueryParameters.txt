@@ -1,0 +1,16 @@
+Query parameters are values added to the end of a URL to send extra information to the server.
+
+They help filter, search, sort, or limit data without changing the main URL path.
+
+They always come after a question mark (?), and multiple parameters are separated by &.
+
+Example:
+/patients?age=20&gender=male
+
+Here:
+
+age = 20
+
+gender = male
+
+These are query parameters.

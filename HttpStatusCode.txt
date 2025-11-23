@@ -1,0 +1,41 @@
+HTTP Status Codes are numeric messages sent by the server to the client (browser / app) to show the result of an HTTP request.
+
+---Category Meaning
+
+2xx – Success
+Request completed successfully.
+
+3xx – Redirection
+Client must go to another URL.
+
+4xx – Client Error
+Client sent a bad request.
+
+5xx – Server Error
+Server failed to process request.
+
+---2xx – Successful Responses
+
+200 OK – Request completed successfully
+201 Created – New resource added successfully
+204 No Content – Request successful but no data returned
+
+---3xx – Redirection Responses
+
+301 Moved Permanently – Resource moved to a new URL permanently
+302 Found – Temporary redirection
+304 Not Modified – Client can use cached version
+
+---4xx – Client Error Responses
+
+400 Bad Request – Client sent invalid or incomplete request
+401 Unauthorized – Authentication required or invalid
+403 Forbidden – Access denied, no permission
+404 Not Found – Requested resource does not exist
+
+---5xx – Server Error Responses
+
+500 Internal Server Error – General server failure
+502 Bad Gateway – Invalid response from upstream server
+503 Service Unavailable – Server overloaded or under maintenance
+504 Gateway Timeout – Server took too long to respond
