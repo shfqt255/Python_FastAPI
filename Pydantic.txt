@@ -1,0 +1,7 @@
+Pydantic checks your data, fixes it when possible, and gives errors when something is wrong — all using Python classes.
+
+Pydantic is a Python library used to:
+
+- Validate data
+- Convert (parse) data into correct types
+- Define data models using Python classes
