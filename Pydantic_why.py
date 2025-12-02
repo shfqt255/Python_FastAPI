@@ -6,7 +6,7 @@ class Patientinfo(BaseModel):
     age: int=Field(gt=0, lt=150)
     email:EmailStr 
     Weight: Annotated[float, Field( strict=True, title='Weight of the patient', description='The must be number because we used strict ', examples=['Do not write 5 with colon'])]
-    allergies: Optional[List[str]]=None
+    allergies: Annotated[Optional[List[str]], Field(default=None)]
     Other_details: Dict[str, str]
 
 def print_data(Info: Patientinfo):
