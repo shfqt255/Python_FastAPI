@@ -3,7 +3,7 @@ class contactInfo(BaseModel):
     Name:str
     Email: EmailStr
     age: int
-
+# we can model validator for all the attributes inside the class. 
     @model_validator(mode='after')
     @classmethod
     def modalValditor(cls, model):
